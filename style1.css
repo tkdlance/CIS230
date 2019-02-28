@@ -1,24 +1,24 @@
-body {
+﻿body {
     background: black;
     width: 800px;
     margin: auto;
 }
 /*This is how you save a comments*/
-h1 {
+h1{
     text-align: center;
+    color : red;
 }
 
 
 p {
-    color: gray;
+    color: yellow;
     border: 1px solid gray;
-	/*text-align: center;*/
-    padding: 10px;
+    padding: 10px; 
+    /*text-align: center;*/
 }
 
-div p{
+div{
 	color : white;
 	background : orange;
-	
+	text-align : center;
 }
-
