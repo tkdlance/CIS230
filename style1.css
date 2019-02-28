@@ -1,0 +1,24 @@
+body {
+    background: black;
+    width: 800px;
+    margin: auto;
+}
+/*This is how you save a comments*/
+h1 {
+    text-align: center;
+}
+
+
+p {
+    color: gray;
+    border: 1px solid gray;
+	/*text-align: center;*/
+    padding: 10px;
+}
+
+div p{
+	color : white;
+	background : orange;
+	
+}
+
