@@ -1,0 +1,58 @@
+body{
+	background: #f9e933;
+}
+
+header, main, footer{
+
+min-width: 855px;
+}
+
+.container{
+	max-width: 855px;
+	margin: auto; /*this does the center affect*/
+
+}
+
+
+header{
+	background: white;
+	overflow: auto; /*If something is over the height a scrollbar will show up*/
+}
+
+header h1{
+	float: left;
+	width: 570px;
+}
+
+header nav{
+	float: right;
+	width: 285px;
+}
+
+main{
+	background: white;
+	overflow: auto;
+}
+
+.leftContent
+{
+	float: left;
+	width: 570; /*The total section of the footer is 855px. So this should be 570px*/
+}
+
+.rightContent
+{
+	float: right;
+	width: 285px; /*The total section of the footer is 855px. So this should be 285px*/
+}
+
+main img{
+	float: right;
+	width: 285px;
+	
+}
+
+footer{
+	clear: both;
+	background: yellow;
+}
