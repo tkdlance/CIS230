@@ -14,7 +14,34 @@ p {
     color: yellow;
     border: 1px solid gray;
     padding: 10px; 
-    /*text-align: center;*/
+    text-align: center;
+}
+
+#wrapper{
+	width: 795px;
+	border: solid gray;
+	overflow: auto;
+}
+
+#first{
+	width: 49.1%;
+	float: left;
+	border: 1px solid white;
+}
+
+#second{
+	width: 50%;
+	border: 1px solid white;
+	float: left;
+	overflow: hidden;
+}
+
+
+.bacon{
+	color : green;
+	background : white;
+	text-align : center;	
+
 }
 
 div{
